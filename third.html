@@ -1,0 +1,48 @@
+<html>
+    <head>
+    </head>
+        <style>
+
+        </style>
+        <body>
+            <script>
+           
+               // var v1="this is a v1"
+
+                //let l1="this is a let"
+               // {
+               // var v1="change v1"
+               // let l1="change l1"
+                //}
+                //console.log(v1,l1)
+                //let a=[1,2,3,4]
+                //let b=new Array()
+                //indexOF('2')
+               // setTimeout(f,5000)
+               // console.log(2)
+             /*  let f=function()
+               {
+                            console.log(1)
+                }
+               // setInterval(f,5)
+                setTimeout(f,5000)//指定的时间后执行操作,ms   f 是回掉函数。异步操作等待5000MS
+                console.log(2)//和上一句没有间隔时间等待。*/
+                function f1()
+                {
+                console.log("hello")
+                }
+                console.log(f1)//
+                 function f3()
+                {
+                   return 5
+               }
+                function f2(callback){
+                    
+                    callback()
+                }
+                f2(f1)
+                f2(f3)
+               
+            </script>
+        </body>
+</html>
